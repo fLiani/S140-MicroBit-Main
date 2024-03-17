@@ -6,7 +6,14 @@
         "type": "git"
     },
     "config":{
-        "MICROBIT_BLE_ENABLED" : 0,
-        "MICROBIT_BLE_PAIRING_MODE": 0
+        "MICROBIT_BLE_ENABLED" : 1,
+        "DEVICE_BLE": 1,
+        "MICROBIT_BLE_PAIRING_MODE": 1,
+        "DMESG_SERIAL_DEBUG": 1,
+        "MICROBIT_DMESG_LEVEL": 4,
+        "DEVICE_DMESG_BUFFER_SIZE": 5024,
+        "MICROBIT_BLE_WHITELIST": 0,
+        "MICROBIT_BLE_SECURITY_MODE": 1,
+        "MICROBIT_BLE_OPEN": 1
     }
 }

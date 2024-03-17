@@ -1,14 +1,13 @@
 #include "MicroBit.h"
-#include "samples/Tests.h"
 
 MicroBit uBit;
 
 int main()
 {
     uBit.init();
-
-    out_of_box_experience();
-
-    microbit_panic( 999 );
+    while(1)
+    {
+        uBit.sleep(1000);
+        uBit.serial.printf("hello");
+    }
 }
-
